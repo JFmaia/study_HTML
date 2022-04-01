@@ -3,3 +3,50 @@
         Quantos produtos foram produzidos, quantos vendidos e agrupado por nome dos produtos
 -->
 
+<table>
+    <caption>Produzidos x Vendidos por Loja</caption>
+
+    <!-- agrupar as colunas -->
+    <colgroup>
+        <col>
+        <!-- expandido o stilo para duas colulas -->
+        <col span="2" style="background-color: red">
+        <!-- expandido o stilo para duas colulas -->
+        <col span="2" style="background-color: blue">
+    </colgroup>
+
+    <thead>
+        <!-- linha -->
+        <tr>
+            <!-- ocupando duas linhas -->
+            <th rowspan="2"></th>
+            <!-- ocupando duas colonas -->
+            <th colspan="2">Afonso Lamarte</th>
+            <!-- ocupando duas colunas -->
+            <th colspan="2">Antonião Ortopede</th>
+        </tr>
+        <!-- linha -->
+        <tr>
+            <th>Produzidos</th>
+            <th>Vendidos</th>
+            <th>Produzidos</th>
+            <th>Vendidos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Vassouras</th>
+            <td>50</td>
+            <td>30</td>
+            <td>20</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <th>Baldes</th>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+</table>
